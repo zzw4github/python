@@ -14,6 +14,8 @@ print persian_cat
 print backslash_cat
 print fat_cat
 
-while True:
+k = 0
+while k ==1 :
 	for i in ["/", "-", "|", "\\", "|"]:
 		print "%s\r" % i,
+	k = k + 1

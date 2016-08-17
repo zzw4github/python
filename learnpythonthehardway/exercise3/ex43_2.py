@@ -30,8 +30,8 @@ class Death(Scene):
 	]
 
 	def enter(self):
-		print Death.quips[radint(0, len(self.quips) - 1)]
-		eit(10)
+		print Death.quips[randint(0, len(self.quips) - 1)]
+		exit(10)
 
 class CentralCorridor(Scene):
 
